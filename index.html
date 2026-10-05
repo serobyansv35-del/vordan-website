@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VORDAN — Time Woven from Eternity</title>
+<style>
+:root{--burg:#5d1825;--green:#173b31;--beige:#efe2cc;--gold:#c9a35b;--cream:#fbf7ef;--ink:#201b17}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;padding:17px 6%;display:flex;justify-content:space-between;align-items:center;background:#173b31f2;color:white;backdrop-filter:blur(8px)}
+.logo{color:var(--gold);letter-spacing:6px;font-size:25px}nav a{color:#fff;text-decoration:none;margin-left:24px;font:13px Arial,sans-serif;letter-spacing:1px}
+.hero{min-height:100vh;display:grid;place-items:center;padding:100px 7%;text-align:center;color:#fff;background:linear-gradient(120deg,#25060c,#5d1825 48%,#173b31)}
+.hero img{width:min(900px,100%);max-height:72vh;object-fit:cover;border:1px solid #c9a35b55;box-shadow:0 30px 80px #0008}
+section{padding:90px 7%}.title{text-align:center;font-size:44px;font-weight:400;color:var(--burg);margin:0 0 14px}.sub{text-align:center;max-width:720px;margin:0 auto 45px;color:#665e54;font-size:18px}
+.story{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}.story img{width:100%;display:block}.storybox{background:var(--green);color:#fff;padding:45px;border-left:5px solid var(--gold)}.storybox h3{color:var(--gold);font-size:30px;font-weight:400;margin-top:0}
+.gallery{background:#f3e8d5}.photo-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.photo{overflow:hidden;min-height:240px}.photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.photo:hover img{transform:scale(1.04)}.p1{grid-column:span 7}.p2{grid-column:span 5}.p3{grid-column:span 4}.p4{grid-column:span 4}.p5{grid-column:span 4}
+.slides{background:#20100f;color:white}.slides .title{color:var(--gold)}.slide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.slide-grid figure{margin:0}.slide-grid img{width:100%;display:block;border:1px solid #c9a35b55}.slide-grid figcaption{padding:10px 0;color:#d9c6a2;font:13px Arial,sans-serif}
+.cta{background:var(--burg);color:white;text-align:center;padding:85px 7%}.cta h2{font-size:46px;font-weight:400;margin:0 0 10px}.cta p{font-size:20px;color:#f0dfc3}
+footer{background:#120e0c;color:#d7c9b0;text-align:center;padding:40px}.footerlogo{color:var(--gold);letter-spacing:7px;font-size:26px}
+@media(max-width:800px){nav div:last-child{display:none}.story,.slide-grid{grid-template-columns:1fr}.photo-grid{display:grid;grid-template-columns:1fr 1fr}.photo{grid-column:span 1}.p1{grid-column:span 2}.p5{grid-column:span 2}.title{font-size:34px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">VORDAN</div><div><a href="#story">STORY</a><a href="#gallery">GALLERY</a><a href="#presentation">PRESENTATION</a></div></nav>
+
+<header class="hero">
+  <img src="assets/slide_1.jpg" alt="Vordan title slide">
+</header>
+
+<section id="story">
+  <h2 class="title">The Armenian Soul in Every Second</h2>
+  <p class="sub">A luxury watch concept inspired by Armenian heritage, ornaments, carpets and craftsmanship.</p>
+  <div class="story">
+    <img src="assets/photo_3.jpg" alt="Armenian carpet collection">
+    <div class="storybox">
+      <h3>Time Woven from Eternity</h3>
+      <p>Vordan connects Armenian history with modern watch design.</p>
+      <p>Traditional carpet patterns and khachkar-inspired details are reimagined on watch dials and bracelets.</p>
+      <p>Our visual language combines deep burgundy, green, beige and noble gold.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2 class="title">The Vordan World</h2>
+  <p class="sub">Watches, packaging and Armenian textile inspiration.</p>
+  <div class="photo-grid">
+    <div class="photo p1"><img src="assets/photo_1.jpg" alt="Vordan packaging"></div>
+    <div class="photo p2"><img src="assets/photo_2.jpg" alt="Vordan round watch"></div>
+    <div class="photo p3"><img src="assets/photo_3.jpg" alt="Armenian carpets"></div>
+    <div class="photo p4"><img src="assets/photo_4.jpg" alt="Armenian carpet detail"></div>
+    <div class="photo p5"><img src="assets/photo_5.jpg" alt="Vordan rectangular watch"></div>
+  </div>
+</section>
+
+<section id="presentation" class="slides">
+  <h2 class="title">Brand Presentation</h2>
+  <p class="sub" style="color:#d9c6a2">Explore the full Vordan presentation.</p>
+  <div class="slide-grid">
+    <figure><img src="assets/slide_1.jpg"><figcaption>01 — Introduction</figcaption></figure>
+    <figure><img src="assets/slide_2.jpg"><figcaption>02 — Inspiration & Heritage</figcaption></figure>
+    <figure><img src="assets/slide_3.jpg"><figcaption>03 — Collections</figcaption></figure>
+    <figure><img src="assets/slide_4.jpg"><figcaption>04 — Logo & Identity</figcaption></figure>
+    <figure><img src="assets/slide_5.jpg"><figcaption>05 — Target Audience</figcaption></figure>
+    <figure><img src="assets/slide_6.jpg"><figcaption>06 — Quality & Craftsmanship</figcaption></figure>
+    <figure><img src="assets/slide_7.jpg"><figcaption>07 — Future Vision</figcaption></figure>
+    <figure><img src="assets/slide_8.jpg"><figcaption>08 — Conclusion</figcaption></figure>
+    <figure><img src="assets/slide_9.jpg"><figcaption>09</figcaption></figure>
+    <figure><img src="assets/slide_10.jpg"><figcaption>10 — Thank You</figcaption></figure>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>VORDAN</h2>
+  <p>Wear History on Your Wrist.</p>
+  <p style="color:#c9a35b;letter-spacing:3px">TIME WOVEN FROM ETERNITY</p>
+</section>
+<footer><div class="footerlogo">VORDAN</div><p>Armenian heritage. Modern time.</p></footer>
+</body>
+</html>
